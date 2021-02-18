@@ -1,0 +1,19 @@
+body .container {
+	/*margin: 5px;
+
+	TU aas trop d'eerurs
+
+	*/
+	margin-bottom: 50px;
+	margin: auto;
+				padding: 3px;
+				width: 90%;
+				background-color: #CCF309;
+				color: #060606;
+				position: center;}
+
+h2 {border: 2px solid;
+	background-color: green;}
+
+header {text-align: center;}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Me contacter</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="contact.js"></script>
+</head>
+<body>
+	<!--
+		Tu veux afficher ce tu as saisi dans formulaire enbas , ?
+		oui, j'aimerais bien faire une liste de clients
+		Ok mais tu sais que cela ne va pas rester c'est à dire
+		qu'on n'a pas de stock de base de donnée 
+		Donc je peux les recuperer et afficher ais dés que tu 
+		actualise ta page tu perds tout 
+		En fait, c'est ça le problème
+		SI tu veux que çà reste il faut ecrire en dur
+		les clients ne vont pas écrire dans mon code ?
+		non ils vont just voir Donc peu importe qu'ils aient une textarea ?
+
+	-->
+	<h3>Simon Rossini</h3>
+	<h3>test.test@test.org</h3>
+	<hr>
+
+		<form method="post" enctype="application/x-www-form-urlencoded" name="contacter">
+						<label>Prenom</label>
+				<input type="text" name="" id="prenom">
+						<label>Nom</label>
+				<input type="text" name="" id="nom">
+						<label>Courriel</label>
+				<input type="e-mail" name="" id="email">
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Numéro de téléphone</label>
+				<input type="text" name="" id="tel">
+					</div>
+					<p> 
+				<label for="message">Votre message : </label>
+				<br>
+				<textarea id="message" rows="7" cols="100"></textarea>
+	</p>	
+	</p>
+					<div class="error"></div>
+				<button type="submit">Afficher dans la liste</button>
+				<onclick (function (formtable))>
+		<!--<table id="maListe">
+			<thead>
+					<tr>
+						<th>Id</th>
+						<th>Prénom</th>
+						<th>Nom</th>
+						<th>Adresse</th>
+						<th>Téléphone</th>
+					</tr>
+					</tr>
+					</tr>
+					</tr>
+			</thead>-->
+			</form>
+	<p><a href="portfolio_index.html">Retour à la page d'accueil</a></p>
+</body>
+</html>
