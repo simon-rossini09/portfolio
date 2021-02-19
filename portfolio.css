@@ -15,5 +15,40 @@ body .container {
 h2 {border: 2px solid;
 	background-color: green;}
 
-header {text-align: center;}
+header {text-align: center;
+    background: radial-gradient(red, transparent);
+    padding: 10px;
 
+}
+
+header a {
+	    text-decoration: none;
+    color: yellow;
+    font-size: 2em;
+}
+
+header a:hover{
+	background: white;
+	color: black;
+}
+
+button { alignment-baseline: : center;
+	background: radial-gradient(red, transparent);
+	padding: 2px;
+}
+/**
+
+Tu vois ? 
+juste avec des choses simples 
+le rendre attrayant , le "customiser" ?
+exactement 
+Pas besoin de faire des choses trop compliqué 
+juste SIMPLE
+Très bien monsieur, je vais y penser ce soir devant mon ordi et passer à l'action demain matin.
+Merci à vous pour votre aide et vos conseils.
+pas de choix, on en reparlera demain si tu veux mais pour le moment custome ton appli en simple
+bonne soirée
+Vous ausssi, merci
+
+	
+*/
