@@ -5,7 +5,7 @@ body .container {
 
 	*/
 	margin-bottom: 50px;
-	margin: auto;
+
 				padding: 3px;
 				width: 90%;
 				background-color: #CCF309;
@@ -16,7 +16,7 @@ h2 {border: 2px solid;
 	background-color: green;}
 
 header {text-align: center;
-    background: radial-gradient(red, transparent);
+    background: radial-gradient(silver, transparent);
     padding: 10px;
 
 }
@@ -32,9 +32,11 @@ header a:hover{
 	color: black;
 }
 
-button { alignment-baseline: : center;
-	background: radial-gradient(red, transparent);
+button { align-self: center;
+	background: radial-gradient(orange, transparent);
+	font-synthesis: green
 	padding: 2px;
+	border: 12em;
 }
 /**
 
